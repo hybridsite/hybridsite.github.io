@@ -129,7 +129,7 @@ footer ul li {
 }
 
 .hero-copy {
-  padding: 100px !important;
+  padding: 30px !important;
 }
 
 .hero-img-wrap {
@@ -181,7 +181,7 @@ div#quote-3 {
 }
 
 .hero-img-wrap .icon {
-  z-index: 10;
+  z-index: -1;
   position: absolute;
 }
 
@@ -196,6 +196,7 @@ img#icon-blue-triangle {
   right: 10%;
   top: 30%;
   animation: rotation 3s infinite ease-in-out;
+  z-index: -1
 }
 
 img#icon-white-triangle {
@@ -346,5 +347,78 @@ img#icon-lock {
 
   .hero-copy {
     padding: 0 !important;
+  }
+}
+
+@media (max-width: 577px) {
+  .hero-img-wrap .hero-img {
+    width: 100%;
+  }
+
+  .hero-img-wrap {
+    height: 400px;
+  }
+
+  img#icon-purple-triangle {
+    right: 60%;
+  }
+
+  img#icon-white-triangle {
+    left: 5px;
+  }
+
+  img#icon-blue-triangle {
+    top: 25%;
+  }
+
+  img#icon-fingerprints {
+    left: -5px;
+    top: 30px;
+  }
+
+  img#icon-lock {
+    right: -20px;
+    top: 35%;
+  }
+
+  div#quote-1 {
+    top: 5%;
+    right: 5px;
+  }
+
+  div#quote-2 {
+    left: 0;
+    top: 65%;
+  }
+
+  div#quote-3 {
+    bottom: 5px;
+    right: 5px;
+  }
+
+  .hero-copy-wrap h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .message-wrap .profile img {
+    width: 50px;
+  }
+
+  .message-wrap .message .thumbnail figure img {
+    max-width: 100% ;
+  }
+
+  .message-wrap .message {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .message-wrap.flex-row .message {
+    margin-right: 5px;
+  }
+
+  .message-wrap.flex-row-reverse .message {
+    margin-left: 5px;
   }
 }
