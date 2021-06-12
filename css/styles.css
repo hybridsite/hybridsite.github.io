@@ -352,7 +352,7 @@ img#icon-lock {
 
 @media (max-width: 577px) {
   .hero-img-wrap .hero-img {
-    width: 100%;
+    max-width: 100%;
   }
 
   .hero-img-wrap {
@@ -377,8 +377,8 @@ img#icon-lock {
   }
 
   img#icon-lock {
-    right: -20px;
-    top: 35%;
+    right: 0;
+    top: 45%;
   }
 
   div#quote-1 {
