@@ -215,8 +215,6 @@ img#icon-lock {
 }
 
 .messenger-wrap {
-  height: 1000px;
-  overflow: auto;
   margin-bottom: 3rem;
 }
 
@@ -281,6 +279,7 @@ img#icon-lock {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  width: 60px;
 }
 
 .message-wrap .message {
@@ -290,11 +289,11 @@ img#icon-lock {
 }
 
 .message-wrap.flex-row .message {
-  margin-right: 100px;
+  margin-right: 256px;
 }
 
 .message-wrap.flex-row-reverse .message {
-  margin-left: 100px;
+  margin-left: 256px;
 }
 
 .message-wrap .message .name {
@@ -399,12 +398,8 @@ img#icon-lock {
     line-height: 60px;
   }
 
-  .message-wrap .profile img {
-    width: 50px;
-  }
-
   .message-wrap .message .thumbnail figure img {
-    max-width: 100% ;
+    max-width: 100%;
   }
 
   .message-wrap .message {
