@@ -11,12 +11,17 @@
   color: #FFF;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
-  background-color: #162134;
+  background-color: #253247;
   min-height: 100vh;
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,13 +34,13 @@ h1 {
 }
 
 header, footer {
-  backdrop-filter: blur(25px);
-  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(2.3px);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0));
-  border-radius: 0px;
-  border-top: 0px solid rgba(255, 255, 255, 0);
-  border-left: 0px solid rgba(255, 255, 255, 0);
+  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0));
+  border-radius: 0;
+  border-top: 0 solid rgba(255, 255, 255, 0.55);
+  border-left: 0 solid rgba(255, 255, 255, 0.55);
   font-size: 14px !important;
 }
 
@@ -86,33 +91,38 @@ footer ul li {
 }
 
 .glass-box {
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(2.3px);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0));
-  border-radius: 10px;
-  border-top: 1.7px solid rgba(255, 255, 255, 0.29);
-  border-left: 1.7px solid rgba(255, 255, 255, 0.29);
+  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0));
+  border-radius: 17px;
+  border-top: 0.1px solid rgba(255, 255, 255, 0.55);
+  border-left: 0.1px solid rgba(255, 255, 255, 0.55);
 }
 
 .glass-box-rounded {
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(2.3px);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0));
-  border-radius: 100px;
-  border-top: 1.7px solid rgba(255, 255, 255, 0.29);
-  border-left: 1.7px solid rgba(255, 255, 255, 0.29);
+  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0));
+  border-radius: 17px;
+  border-top: 0.1px solid rgba(255, 255, 255, 0.55);
+  border-left: 0.1px solid rgba(255, 255, 255, 0.55);
 }
 
 .glass-box-circle {
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(2.3px);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0));
-  border-radius: 50%;
-  border-top: 1.7px solid rgba(255, 255, 255, 0.29);
-  border-left: 1.7px solid rgba(255, 255, 255, 0.29);
+  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0));
+  border-radius: 17px;
+  border-top: 0.1px solid rgba(255, 255, 255, 0.55);
+  border-left: 0.1px solid rgba(255, 255, 255, 0.55);
+}
+
+.container-1 {
+  width: 854px;
+  max-width: 100%;
 }
 
 .hero-copy-wrap {
@@ -122,12 +132,12 @@ footer ul li {
 }
 
 .hero-copy-wrap h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 60px;
+  line-height: 1.2em;
 }
 
 .hero-copy {
-  padding: 30px !important;
+  color: #B5B4BB;
 }
 
 .hero-img-wrap {
@@ -135,24 +145,24 @@ footer ul li {
   height: 600px;
 }
 
-.hero-img {
+.hero-img-wrap .hero-img {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -60px;
+  bottom: 0;
   max-height: 100%;
   z-index: 1;
-  padding-top: 50px;
+  max-width: 100%;
 }
 
 .hero-img-wrap .quote {
 
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(2.3px);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0));
-  border-radius: 10px;
-  border-top: 1.7px solid rgba(255, 255, 255, 0.29);
-  border-left: 1.7px solid rgba(255, 255, 255, 0.29);
+  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0));
+  border-radius: 17px;
+  border-top: 0.1px solid rgba(255, 255, 255, 0.55);
+  border-left: 0.1px solid rgba(255, 255, 255, 0.55);
 
   font-style: italic;
   padding: 10px 25px;
@@ -164,8 +174,8 @@ footer ul li {
 }
 
 div#quote-1 {
-  top: 10%;
-  right: 10%;
+  top: 5%;
+  right: 0%;
 }
 
 div#quote-2 {
@@ -175,7 +185,7 @@ div#quote-2 {
 
 div#quote-3 {
   bottom: 10px;
-  right: 100px;
+  right: 0;
 }
 
 .hero-img-wrap .icon {
@@ -192,7 +202,7 @@ img#icon-purple-triangle {
 
 img#icon-blue-triangle {
   right: 10%;
-  top: 30%;
+  top: 20%;
   animation: rotation 3s infinite ease-in-out;
   z-index: -1
 }
@@ -205,18 +215,19 @@ img#icon-white-triangle {
 }
 
 img#icon-fingerprints {
-  right: 90%;
+  right: auto;
+  left: 0;
   bottom: 10%;
+  width: 90px;
 }
 
 img#icon-lock {
-  right: 0;
-  top: 40%;
+  right: -10px;
+  top: 30%;
+  width: 90px;
 }
 
 .messenger-wrap {
-  height: 1000px;
-  overflow: auto;
   margin-bottom: 3rem;
 }
 
@@ -225,13 +236,13 @@ img#icon-lock {
 }
 
 .messenger-wrap::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(2.3px);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0));
-  border-top: 1.7px solid rgba(255, 255, 255, 0.29);
-  border-left: 1.7px solid rgba(255, 255, 255, 0.29);
+  background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0));
+  border-radius: 17px;
+  border-top: 0.1px solid rgba(255, 255, 255, 0.55);
+  border-left: 0.1px solid rgba(255, 255, 255, 0.55);
 }
 
 .messenger-wrap .status-bar h5 {
@@ -281,6 +292,7 @@ img#icon-lock {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  width: 60px;
 }
 
 .message-wrap .message {
@@ -290,24 +302,17 @@ img#icon-lock {
 }
 
 .message-wrap.flex-row .message {
-  margin-right: 100px;
+  margin-right: 256px;
 }
 
 .message-wrap.flex-row-reverse .message {
-  margin-left: 100px;
+  margin-left: 256px;
 }
 
 .message-wrap .message .name {
   display: block;
   margin-bottom: 10px;
 }
-
-/*.message-wrap .message .thumbnail img {*/
-/*float: left;*/
-/*margin-right: 5px;*/
-/*margin-bottom: 5px;*/
-/*max-width: 350px;*/
-/*}*/
 
 .message-wrap .message .thumbnail figure {
   float: left;
@@ -337,7 +342,12 @@ img#icon-lock {
   }
 }
 
+/** md **/
 @media (max-width: 992px) {
+  .container-1 {
+    width: auto;
+  }
+
   .hero-copy-wrap {
     height: auto;
     margin-top: 120px;
@@ -346,65 +356,211 @@ img#icon-lock {
   .hero-copy {
     padding: 0 !important;
   }
-}
 
-@media (max-width: 577px) {
   .hero-img-wrap .hero-img {
     max-width: 100%;
+    right: -135px;
   }
 
-  .hero-img-wrap {
-    height: 400px;
+  .hero-img-wrap .hero-copy {
+    font-size: 20px;
+    line-height: 1.2em;
+    width: 400px;
+    top: 40%;
+    position: absolute;
+    z-index: 10;
   }
 
-  img#icon-purple-triangle {
-    right: 60%;
+  .hero-img-wrap .hero-copy h1 {
+    font-size: 26px;
+    line-height: 1.2em;
   }
 
   img#icon-white-triangle {
-    left: 5px;
+    left: 40%;
+    top: 70%;
+    right: auto;
   }
 
   img#icon-blue-triangle {
-    top: 25%;
+    top: 5%;
+    right: 0;
   }
 
   img#icon-fingerprints {
-    left: -5px;
-    top: 30px;
+    right: 70%;
+    left: 5%;
+    bottom: 5%;
+    width: 80px;
+  }
+
+  img#icon-lock {
+    right: -20px;
+    top: 20%;
+    width: 80px;
+  }
+
+  div#quote-1 {
+    right: 35%;
+  }
+
+  div#quote-3 {
+    bottom: 5%;
+    right: 0;
+  }
+}
+
+/** sm **/
+@media (max-width: 768px) {
+  .container-1 {
+    width: auto;
+  }
+
+  .hero-img-wrap .hero-img {
+    max-width: 100%;
+    right: -135px;
+  }
+
+  .hero-img-wrap .hero-copy {
+    font-size: 20px;
+    line-height: 1.2em;
+    width: 240px;
+    top: 40%;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .hero-img-wrap .hero-copy h1 {
+    font-size: 26px;
+    line-height: 1.2em;
+  }
+
+  img#icon-purple-triangle {
+    right: 75%;
+  }
+
+  img#icon-white-triangle {
+    left: 30%;
+    top: auto;
+    bottom: 23%;
+    right: auto;
+  }
+
+  img#icon-blue-triangle {
+    top: 15%;
+    right: -10px;
+  }
+
+  img#icon-fingerprints {
+    right: auto;
+    left: 5%;
+    bottom: 5%;
+    width: 70px;
+  }
+
+  img#icon-lock {
+    right: -15px;
+    top: 27%;
+    width: 70px;
+  }
+
+  div#quote-1 {
+    top: 20px;
+  }
+
+  div#quote-3 {
+    bottom: 5%;
+    right: -10px;
+  }
+}
+
+/** xs **/
+@media (max-width: 577px) {
+  .container-1 {
+    width: auto;
+  }
+
+  .hero-img-wrap .hero-img {
+    max-width: 100%;
+    right: -80px;
+  }
+
+  .hero-img-wrap .hero-copy {
+    font-size: 14px;
+    line-height: 1.2em;
+    width: 155px;
+    top: 40%;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .hero-img-wrap .hero-copy h1 {
+    font-size: 20px;
+    line-height: 1.2em;
+  }
+
+  .hero-img-wrap {
+    height: 500px;
+  }
+
+  .hero-img-wrap .quote {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  img#icon-purple-triangle {
+    right: 85%;
+    top: 10%;
+  }
+
+  img#icon-white-triangle {
+    left: 25%;
+    top: 75%;
+  }
+
+  img#icon-blue-triangle {
+    top: 10%;
+    right: 5%;
+  }
+
+  img#icon-fingerprints {
+    left: 5%;
+    bottom: 5%;
+    width: 50px;
   }
 
   img#icon-lock {
     right: 0;
-    top: 45%;
+    top: 35%;
+    width: 50px;
   }
 
   div#quote-1 {
     top: 5%;
-    right: 5px;
+    right: 25%;
   }
 
   div#quote-2 {
-    left: 0;
-    top: 65%;
+    top: 22%;
   }
 
   div#quote-3 {
-    bottom: 5px;
+    bottom: 5%;
     right: 5px;
   }
 
-  .hero-copy-wrap h1 {
-    font-size: 48px;
-    line-height: 60px;
+  .hero-copy-wrap {
+    font-size: 16px;
+    line-height: 1em;
   }
 
-  .message-wrap .profile img {
-    width: 50px;
+  .hero-copy-wrap h1 {
+    font-size: 20px;
+    line-height: 1em;
   }
 
   .message-wrap .message .thumbnail figure img {
-    max-width: 100% ;
+    max-width: 100%;
   }
 
   .message-wrap .message {
